@@ -4,6 +4,7 @@ import Footer from './componests/footer';
 import Product from './componests/product';
 import ProductProfile from './componests/prodect-profile';
 import Login from './componests/login';
+import Button from "./componests/try"
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       {/* Example: <Checkout /> */}
       {/* Example: <OrderHistory /> */}
       <Footer />
+      {/* <Button /> */}
     </>
   );
 }

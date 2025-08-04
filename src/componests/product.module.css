@@ -8,7 +8,7 @@
     text-wrap: wrap;
 }
 
-.product img {
+.image{
     max-width: 100%;
     height: auto;
     width: 200px;
@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-.product h2 {
+.title {
     font-size: 18px;
     margin: 10px 0;
 }
@@ -30,7 +30,7 @@
     color: #555;
 }
 
-.product button {
+.button{
     background-color: #28a745;
     color: white;
     border: none;
@@ -40,7 +40,7 @@
     margin: 2px;
 }
 
-.product button:hover {
+.button:hover {
     background-color: #218838;
 }
 u{

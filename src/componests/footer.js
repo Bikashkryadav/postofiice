@@ -1,7 +1,7 @@
-import "./footer.css"
+import  styles from './footer.module.css';
 const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <p>@ copyright 2023 postoffice</p>
         </footer>
     );
