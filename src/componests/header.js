@@ -1,4 +1,5 @@
 import styles from './header.module.css';
+import {Inputstyle} from "./style"
 const Header = () => {
     return (
         <header className={styles.header}>
@@ -15,7 +16,7 @@ const Header = () => {
                     </li>
                 </ul>
                 <div>
-                    <input id={styles.search} type="text" placeholder="Search..." />
+                    <Inputstyle  type="text" placeholder="Search..." />
                 </div>
                 <div className={styles.profile_img}>
                     <img id={styles.profile_img} src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo" />

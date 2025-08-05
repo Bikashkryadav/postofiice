@@ -1,4 +1,5 @@
 import style from './product.module.css'
+import {Buttonstyle} from "./style"
 const Product = () => {
     return (
         <>
@@ -8,8 +9,8 @@ const Product = () => {
             <p className={style.description}>Description of the product goes here.</p>
             <p className={style.price}>Price: $XX.XX</p>
             <p className={style.price}><u>$XX.XX</u></p>
-            <button className={style.button}>Add to Cart</button>
-            <button className={style.button} >Buy Now</button>      
+            <Buttonstyle>Add to Cart</Buttonstyle>
+            <Buttonstyle>Buy Now</Buttonstyle>      
         </div>
         </>
     );
