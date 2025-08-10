@@ -1,5 +1,6 @@
 import "./product-profile.css";
 import Product from './product';
+import {Buttonstyle} from "./style"
 const ProductProfile = () => {
     return (
         <>
@@ -15,8 +16,8 @@ const ProductProfile = () => {
                         <p>Price: <u>$XX.XX</u></p>
                     </div>
                     <div className="buttons">
-                        <button>Add to Cart</button>
-                        <button>Buy Now</button>
+                        <Buttonstyle>Add to Cart</Buttonstyle>
+                        <Buttonstyle>Buy Now</Buttonstyle>
                     </div>
                 </div>
                 <div className="product-reviews">

@@ -5,12 +5,12 @@
     text-align: center;
     margin: 10px;
     width: 220px;
+
     text-wrap: wrap;
 }
 
 .image{
-    max-width: 100%;
-    height: auto;
+    height: 200px;
     width: 200px;
     border-radius: 5px;
     cursor: pointer;
@@ -19,6 +19,7 @@
 .title {
     font-size: 18px;
     margin: 10px 0;
+    text-transform: capitalize;
 }
 .product h2:hover {
     cursor: pointer;
