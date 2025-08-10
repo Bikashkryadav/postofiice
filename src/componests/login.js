@@ -1,4 +1,5 @@
 import style from "./login.module.css"
+import {Inputstyle,Buttonstyle} from './style'
 
 const Login = () => {
     return (
@@ -8,13 +9,13 @@ const Login = () => {
             <form className={style.form}>
                 <div className={style.email}>
                     <label>Email:</label>
-                    <input type="email" placeholder="Gmail:-" />
+                    <Inputstyle type="email" placeholder="Gmail:-" />
                 </div>
                 <div className={style.password}>
                     <label>Password:</label>
-                    <input type="password" placeholder="Password:-" />
+                    <Inputstyle type="password" placeholder="Password:-" />
                 </div>
-                <button type="submit" className={style.login_btn} >Login</button>
+                <Buttonstyle type="submit" >Login</Buttonstyle>
             </form>
         </div>
     );

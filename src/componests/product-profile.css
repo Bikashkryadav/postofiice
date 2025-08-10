@@ -28,19 +28,6 @@
     color: #555;
 }
 
-.product-profile button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 2px;
-}
-
-.product-profile button:hover {
-    background-color: #218838;
-}
 .product-details{
     display: flex;
     flex-direction: column;
